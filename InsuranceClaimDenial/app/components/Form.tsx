@@ -28,7 +28,7 @@ const UploadForm = () => {
             //         body: formData,
             //     });
             try {
-                const response = await fetch('http://127.0.0.1:5000/claimDetection', {
+                const response = await fetch('https://claim-prediction-6.onrender.com/claimDetection', {
                     method: 'POST',
                     body: formData,
                 });
