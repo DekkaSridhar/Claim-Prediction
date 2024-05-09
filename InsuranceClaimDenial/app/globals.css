@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #DBE6EF;
+    overflow-y: hidden;
+}
+
+div::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  div::-webkit-scrollbar-thumb {
+    background-color: transparent;
+  }
+  
+  div:hover::-webkit-scrollbar-thumb {
+    background-color: #888; /* Change to your preferred scrollbar color */
+  }
