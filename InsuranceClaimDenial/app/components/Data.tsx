@@ -22,9 +22,9 @@ const UserList: React.FC<Props> = ({ users }) => {
 
   return (
     <div className='h-screen flex items-center justify-center flex-row'>
-        <div className="flex h-screen items-center justify-center z-50 w-5/6">
+        <div className="flex h-screen items-center justify-center z-40 w-5/6">
         <div className="flex-1 h-1/2 z-50 justify-center items-center overflow-y-scroll w-1/2">
-            <h2 className=" pl-40 font-poppins text-lg font-bold z-50 mb-3">Potential Patients:</h2>
+            <h2 className=" pl-40 font-poppins text-lg font-bold z-40 mb-3">Potential Patients:</h2>
             <ul className='flex flex-col pl-40 justify-center'>
             {users.map((user, index) => (
                 
