@@ -37,7 +37,7 @@ const UserList: React.FC<Props> = ({ users }) => {
         <div className="flex-1 ml-4 h-1/2 items-center justify-center z-50 w-1/2">
             {selectedUser && (
             <div>
-                <h2 className="font-poppins text-lg font-bold z-50 mb-3">Probable Causes of Claim Denial for {selectedUser.PatientName}:</h2>
+                <h2 className="font-poppins text-lg font-bold z-50 mb-3">Key Features of Denial for {selectedUser.PatientName}:</h2>
                 <ul className='font-poppins flex flex-col pl-32 justify-center'>
                 {selectedUser.MostImportantFeatures.map((cause, index) => (
                     <li key={index}>{cause}</li>

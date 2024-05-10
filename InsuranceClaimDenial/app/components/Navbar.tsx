@@ -9,9 +9,9 @@ export default function Navbar() {
         <div className="top-0 h-14 fixed w-full flex items-center justify-between" style={{backgroundColor : '#2F3C46'}}>
             <img src="Group 1.svg" className=" inline h-8 ml-6 mt-1"/>
             <div className="flex items-center flex-row gap-8">
-                <span className="text-white">|</span>
                 <button className="text-white font-poppins rounded-md p-2 hover:bg-slate-800" onClick={() => router.replace('/')}>Home</button>
                 <span className="text-white">|</span>
+                <button className="text-white font-poppins rounded-md p-2 hover:bg-slate-800" onClick={() => router.replace('/pages/About')}>About</button>
             </div>
             <div/>
         </div>
